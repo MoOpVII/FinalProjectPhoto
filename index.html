@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src = "js/script.js"></script>
+</head>
+<body onload="init()">
+	
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+
+	<img class = "preview" alt = "Cheddar Cheese" src = "images/cheddar.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+	<img class = "preview" alt = "Brie Cheese" src = "images/brie.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+	<img class = "preview" alt = "Gouda Cheese" src = "images/gouda.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+	<img class = "preview" alt = "Parmesan Cheese" src = "images/parmesan.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+	<img class = "preview" alt = "Mozzarella Cheese" src = "images/mozzarella.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+	<img class = "preview" alt = "Blue Cheese" src = "images/blue.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+	<input type="text" onfocus="focusFunction()" onblur="blurFunction()">
+
+  <script  src="js/script.js"></script>
+
+</body>
+</html>
